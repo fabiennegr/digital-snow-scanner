@@ -1,5 +1,20 @@
 # Digital snow melt - Automated forecasting from snow parameters
 
+###### <h6 align="right"> - A group project by Florian Donhauser, Fabienne Greier, Md. Forhad Hossain,, Robin Mittas, Wudamu from TU - Munich</h6>
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Abstract](#abstract)
+3. [Dependencies](#dependencies)
+4. [How to trigger the different scripts](#how-to-trigger-the-different-scripts)
+
+--- 
+
+## Introduction
+
+This project took place in the winter semester 2021 as part of the [TUM Data Innovation Lab](https://www.mdsi.tum.de/en/di-lab/tum-di-lab/) educational research experience at the Technical University of Munich. The program brings together master’s students to work on real-world, interdisciplinary data science challenges in collaboration with academic and industry partners, offering hands-on experience in AI and data-driven problem solving.
+
 ## Abstract
 The forecast of seasonal snowmelt and inflow into water reservoirs based on automatic extraction of snow parameters plays a crucial role in the hydropower industry to plan and deliver energy more efficiently.
 This project aims to research appropriate Machine Learning (ML) methods for predicting the water inflow of specific reservoir lakes, implement a model based on an opensource ML model, train it with Norwegian data, and optimize the model prediction performance.
@@ -18,3 +33,5 @@ To install these packages, we suggest creating a virtual environment to run all 
 - As a next step we can trigger the script /ResCNN_LSTM/hyperparameter_tuning.py which will find the best possible hyperparameters for the specified station, date setting in /ResCNN_LSTM/config.yaml
 - Once this has run successfully we can have a look into /ResCNN_LSTM/hypertune_configs/configs_evaluation.txt and find the best config setting
 - Now we just have to modify the path to this specific setting in /ResCNN_LSTM/ResCNN_LSTM_fit.py in the very last line of the code
+
+##### Disclaimer: Most of the data and code are confidential and hence not included in the repository. 
