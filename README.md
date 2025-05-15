@@ -34,4 +34,4 @@ To install these packages, we suggest creating a virtual environment to run all 
 - Once this has run successfully we can have a look into /ResCNN_LSTM/hypertune_configs/configs_evaluation.txt and find the best config setting
 - Now we just have to modify the path to this specific setting in /ResCNN_LSTM/ResCNN_LSTM_fit.py in the very last line of the code
 
-##### Disclaimer: Most of the data and code are confidential and hence not included in the repository. 
+##### Disclaimer: Most of the data and some of the code are confidential and hence not included in the repository. 
