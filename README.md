@@ -1,6 +1,6 @@
 # Digital snow melt - Automated forecasting from snow parameters
 
-###### <h6 align="right"> - A group project by Florian Donhauser, Fabienne Greier, Md. Forhad Hossain,, Robin Mittas, Wudamu from TU - Munich</h6>
+###### <h6 align="right"> - A group project by Florian Donhauser, Fabienne Greier, Md. Forhad Hossain, Robin Mittas, Wudamu from TU - Munich</h6>
 
 ## Table of Contents
 
